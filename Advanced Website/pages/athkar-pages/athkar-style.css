@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+:root{
+    --main-color:#7ae47a;
+    --sel-color:rgb(85, 133, 85)
+}
+.main-tk{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 0px;
+    justify-content: center;
+    display: flex;    flex-direction: column;    align-items: center;
+}
+.at-text{
+    text-align: right;
+}
+.at-text h3{
+    margin-left: 50px;
+    font-size: 2.6rem;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+.card-container-tk{
+    display: block;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    direction: rtl;
+}
+.a-card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transform: 0.2s;
+    margin-bottom: 20px;
+}
+.a-card {
+  background-color: white;
+  transform: 0.2s;
+  color: var(--main-color);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  margin-right: 0px;
+  text-align: right;
+}
+.a-card .thikr{
+    font-size: 1.4rem;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+.a-card .f-thikr{
+    margin-top: 15px;
+    color: white;
+    opacity: 1;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 7px 15px;
+    background-color:var(--main-color);
+}
+.a-card .circle{
+    background-color: var(--main-color);
+    display: flex;
+    color: white;
+    width: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px 7px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.a-card .circle p{
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin-right: 7px;
+}
+.a-card .thikr-num{
+    font-weight: 600;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    margin-left: 10px;
+    float: left;
+}
